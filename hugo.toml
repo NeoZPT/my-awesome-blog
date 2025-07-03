@@ -54,8 +54,8 @@ theme = "PaperMod"
   subtitle = "這裡是我的自我介紹，歡迎交流！"
   imageUrl = "Me.jpg"
   imageTitle = "我的頭像"
-  imageWidth = 120
-  imageHeight = 120
+  imageWidth = 200
+  imageHeight = 200
 
 [[params.profileMode_buttons]]
   name = "GitHub"
