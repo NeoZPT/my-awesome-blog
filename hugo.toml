@@ -23,16 +23,39 @@ theme = "PaperMod"
     weight = 3
 
 [params]
-  homeInfoParams = { Title = "哈囉，我是 XXX！", Content = "這裡是我的個人部落格，歡迎來到我的數字花園。" }
+  homeInfoParams = { Title = "哈囉，我是 NeoZPT！", Content = "這裡是我的數字花園，分享技術、生活與創作。" }
+  defaultTheme = "dark"           # 預設深色模式
+  disableThemeToggle = false       # 顯示深/淺色切換
+  ShowShareButtons = true          # 文章分享按鈕
+  ShowReadingTime = true           # 顯示閱讀時間
+  ShowToc = true                   # 顯示目錄
+  ShowBreadCrumbs = true           # 顯示麵包屑
+  ShowCodeCopyButtons = true       # 程式碼區塊複製
+  ShowPostNavLinks = true          # 上一篇/下一篇
+  ShowWordCount = true             # 顯示字數
+  ShowRssButtonInSectionTermList = true # RSS 按鈕
+  ShowAllPagesInArchive = true     # 歷史文章全顯示
+  ShowPageNums = true              # 分頁顯示
+  ShowLastMod = true               # 顯示最後修改時間
+  ShowBreadCrumbs = true           # 麵包屑導航
+  ShowTag = true                   # 顯示標籤
+  ShowCategory = true              # 顯示分類
+  ShowComments = false             # 若要開啟評論可改 true
+  comments = false
+  socialIcons = [
+    { name = "github", url = "https://github.com/NeoZPT" },
+    { name = "linkedin", url = "https://linkedin.com/in/你的帳號" },
+    { name = "twitter", url = "https://twitter.com/你的帳號" }
+  ]
+  assets = { favicon = "/images/favicon.ico", favicon16x16 = "/images/favicon-16x16.png", favicon32x32 = "/images/favicon-32x32.png", apple_touch_icon = "/images/apple-touch-icon.png", safari_pinned_tab = "/images/safari-pinned-tab.svg" }
+  profileMode = true
 
-[params.profileMode]
-  enabled = true
-  title = "XXX"
-  subtitle = "這裡是我的自我介紹，歡迎交流！"
-  imageUrl = "/images/avatar.png" # 請將你的頭像圖檔放在 static/images/avatar.png
-  imageTitle = "我的頭像"
-  imageWidth = 120
-  imageHeight = 120
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[services]
+  [services.googleAnalytics]
+    id = ""
 
 [[params.profileMode_buttons]]
 name = "GitHub"
