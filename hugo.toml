@@ -23,7 +23,7 @@ theme = "PaperMod"
     weight = 3
 
 [params]
-  homeInfoParams = { Title = "哈囉，我是 NeoZPT！", Content = "這裡是我的數字花園，分享技術、生活與創作。" }
+  homeInfoParams = { Title = "哈囉，我是志平！", Content = "這裡是我的數字花園，分享技術、生活與創作。" }
   defaultTheme = "dark"           # 預設深色模式
   disableThemeToggle = false       # 顯示深/淺色切換
   ShowShareButtons = true          # 文章分享按鈕
@@ -52,7 +52,7 @@ theme = "PaperMod"
   enabled = true
   title = "NeoZPT"
   subtitle = "這裡是我的自我介紹，歡迎交流！"
-  imageUrl = "/images/avatar.png"
+  imageUrl = "Me.jpg"
   imageTitle = "我的頭像"
   imageWidth = 120
   imageHeight = 120
