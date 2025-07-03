@@ -50,7 +50,7 @@ theme = "PaperMod"
 
 [params.profileMode]
   enabled = true
-  title = "NeoZPT"
+  title = "嗨!我是志平，也可以叫我Neo"
   subtitle = "這裡是我的自我介紹，歡迎交流！"
   imageUrl = "Me.jpg"
   imageTitle = "我的頭像"
