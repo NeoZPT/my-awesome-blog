@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>我的第一座數字花園</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/my-awesome-blog/</link>
     <description>Recent content on 我的第一座數字花園</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>zh-tw</language>
     <lastBuildDate>Thu, 03 Jul 2025 18:59:19 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/my-awesome-blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
+      <link>http://localhost:1313/my-awesome-blog/posts/hello-world/</link>
       <pubDate>Thu, 03 Jul 2025 18:59:19 +0800</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <guid>http://localhost:1313/my-awesome-blog/posts/hello-world/</guid>
       <description>&lt;p&gt;Hello World！這是我的第一篇 Hugo 文章。&lt;/p&gt;</description>
     </item>
     <item>
       <title>關於我</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://localhost:1313/my-awesome-blog/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://localhost:1313/my-awesome-blog/about/</guid>
       <description>&lt;p&gt;這裡是關於我的介紹。請在這裡填寫你的個人簡介、興趣或其他想分享的內容。&lt;/p&gt;</description>
     </item>
   </channel>
