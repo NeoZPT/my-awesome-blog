@@ -37,7 +37,6 @@ theme = "PaperMod"
   ShowAllPagesInArchive = true     # 歷史文章全顯示
   ShowPageNums = true              # 分頁顯示
   ShowLastMod = true               # 顯示最後修改時間
-  ShowBreadCrumbs = true           # 麵包屑導航
   ShowTag = true                   # 顯示標籤
   ShowCategory = true              # 顯示分類
   ShowComments = false             # 若要開啟評論可改 true
