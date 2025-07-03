@@ -47,7 +47,27 @@ theme = "PaperMod"
     { name = "twitter", url = "https://twitter.com/你的帳號" }
   ]
   assets = { favicon = "/images/favicon.ico", favicon16x16 = "/images/favicon-16x16.png", favicon32x32 = "/images/favicon-32x32.png", apple_touch_icon = "/images/apple-touch-icon.png", safari_pinned_tab = "/images/safari-pinned-tab.svg" }
-  profileMode = true
+
+[params.profileMode]
+  enabled = true
+  title = "NeoZPT"
+  subtitle = "這裡是我的自我介紹，歡迎交流！"
+  imageUrl = "/images/avatar.png"
+  imageTitle = "我的頭像"
+  imageWidth = 120
+  imageHeight = 120
+
+[[params.profileMode_buttons]]
+  name = "GitHub"
+  url = "https://github.com/NeoZPT"
+
+[[params.profileMode_buttons]]
+  name = "LinkedIn"
+  url = "https://linkedin.com/in/你的帳號"
+
+[[params.profileMode_buttons]]
+  name = "Twitter"
+  url = "https://twitter.com/你的帳號"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
@@ -55,15 +75,3 @@ theme = "PaperMod"
 [services]
   [services.googleAnalytics]
     id = ""
-
-[[params.profileMode_buttons]]
-name = "GitHub"
-url = "https://github.com/NeoZPT"
-
-[[params.profileMode_buttons]]
-name = "LinkedIn"
-url = "https://linkedin.com/in/你的帳號"
-
-[[params.profileMode_buttons]]
-name = "Twitter"
-url = "https://twitter.com/你的帳號"
