@@ -1,0 +1,47 @@
+baseURL = "https://example.com/"
+title = "我的第一座數字花園"
+languageCode = "zh-tw"
+theme = "PaperMod"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "首頁"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "about"
+    name = "關於我"
+    url = "/about/"
+    weight = 3
+
+[params]
+  homeInfoParams = { Title = "哈囉，我是 XXX！", Content = "這裡是我的個人部落格，歡迎來到我的數字花園。" }
+
+[params.profileMode]
+  enabled = true
+  title = "XXX"
+  subtitle = "這裡是我的自我介紹，歡迎交流！"
+  imageUrl = "/images/avatar.png" # 請將你的頭像圖檔放在 static/images/avatar.png
+  imageTitle = "我的頭像"
+  imageWidth = 120
+  imageHeight = 120
+
+[[params.profileMode_buttons]]
+name = "GitHub"
+url = "https://github.com/NeoZPT"
+
+[[params.profileMode_buttons]]
+name = "LinkedIn"
+url = "https://linkedin.com/in/你的帳號"
+
+[[params.profileMode_buttons]]
+name = "Twitter"
+url = "https://twitter.com/你的帳號"
